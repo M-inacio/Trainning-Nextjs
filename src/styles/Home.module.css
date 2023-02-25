@@ -76,3 +76,8 @@
   color: white;
   font-weight: bold;
 }
+.social{
+  display:flex;
+  flex-direction:column;
+  margin-top:80px;
+}
