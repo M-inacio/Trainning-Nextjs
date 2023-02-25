@@ -20,7 +20,10 @@ export default function Contato() {
       </header>
       <section className={estilo.section}>
         <h1>Contato</h1>
-
+        <h2>Desenvolvedor</h2>
+        <div className={estilo.fields}>
+        <input type="text" placeholder='Marcos Inacio' readOnly />
+        </div>
 
         <div className={estilo.social}>
           <Link href='https://wa.me/5544999148427' target="_blank" ><FaWhatsappSquare size={30} color="#5edc1f" /></Link>
